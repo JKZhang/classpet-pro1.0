@@ -1,7 +1,7 @@
 # HEARTBEAT.md - 每日热点自动化工作流
 
 ## 触发时间
-每天早上 9:00（Asia/Shanghai）
+每天晚上 21:00（Asia/Shanghai）
 
 ## 执行清单
 
