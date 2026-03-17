@@ -15,7 +15,7 @@ const DEFAULT_CONFIG = {
         { id: 2, name: '座位选择权', cost: 200, stock: 2 },
         { id: 3, name: '班长体验日', cost: 300, stock: 1 }
     ],
-    className: '二年级一班'
+    className: '三年级3班'
 };
 
 // 默认学生名单
@@ -396,7 +396,7 @@ class DataManager {
     // 获取班级信息
     getClassInfo() {
         return {
-            name: this.config.className || '三年级一班',
+            name: this.config.className || '三年级3班',
             count: this.students.length,
             totalScore: this.students.reduce((sum, s) => sum + s.score, 0),
             averageScore: Math.round(this.students.reduce((sum, s) => sum + s.score, 0) / this.students.length) || 0
