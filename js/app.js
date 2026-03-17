@@ -25,13 +25,13 @@ class UIManager {
     updateClassName() {
         const classNameElement = document.querySelector('.class-name');
         if (classNameElement) {
-            classNameElement.textContent = `🌟 ${this.data.config.className || '三年级一班'}宠物乐园`;
+            classNameElement.textContent = `🌟 ${this.data.config.className || '三年级3班'}宠物乐园`;
         }
 
         // 更新欢迎弹窗中的班级名称
         const welcomeClassName = document.getElementById('welcomeClassName');
         if (welcomeClassName) {
-            welcomeClassName.textContent = `${this.data.config.className || '三年级一班'} · 宠物养成系统`;
+            welcomeClassName.textContent = `${this.data.config.className || '三年级3班'} · 宠物养成系统`;
         }
     }
 
